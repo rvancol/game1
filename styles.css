@@ -1,0 +1,465 @@
+html {
+  background:  url(https://media.giphy.com/media/fjcR7bc9A7n9e/giphy.gif) no-repeat center center fixed;
+  background-size: cover;
+  /*opacity: 0.6;*/
+}
+
+h2 {
+  text-align: center;
+}
+
+#how-to-play {
+  text-align: center;
+}
+
+#first-page-container {
+}
+
+#play {
+  width: 100%;
+  position: relative;
+  left: 50%;
+}
+
+.button {
+  position: absolute;
+}
+
+#first-page-header {
+  color: black;
+  background-color: white;
+  text-align: center;
+}
+
+.header {
+  text-align: center;
+  padding: 10px 10px 10px 10px;
+}
+
+.choose-status {
+  margin: auto;
+  width: auto;
+  border: 3px solid black;
+  display: run-in;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+#player-1-choose-ship {
+  align-items: center;
+  text-align: center;
+}
+
+.aircraft-carrier-slope1 {
+  position: absolute
+  bottom: 0px;
+  left: 0px;
+}
+
+.aircraft-carrier-slope-neg1 {
+  position: absolute
+  bottom: 0px;
+  left: 0px;
+}
+
+.submarine-slope1 {
+  position: absolute
+}
+
+.submarine-slope-neg1 {
+  position: absolute
+}
+
+.cruiser-horizontal {
+  position: absolute
+}
+
+.cruiser-vertical {
+  position: absolute
+}
+
+.destroyer-horizontal {
+  position: absolute
+}
+
+.destroyer-vertical {
+  position: absolute
+}
+
+#player-2-choose-ship {
+  align-items: center;
+  text-align: center;
+}
+
+.rules-div {
+  margin: auto;
+  width: auto;
+  border: 3px solid black;
+  display: run-in;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.battleship-types {
+  margin: auto;
+  width: auto;
+  border: 3px solid black;
+  display: run-in;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.row2 {
+  border: 3px solid black;
+  padding: 5px 5px 5px 5px;
+  margin-bottom: 5px;
+}
+
+#player-turn {
+  margin: auto;
+}
+
+.coordinate-plane {
+  margin: auto;
+  width: auto;
+  border: 3px solid black;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+#first-second {
+  border: none;
+  /*border-bottom: 1px solid #000;*/
+  padding-top: 4px;
+  margin: 0 auto;
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+#third-fourth {
+  border: none;
+  /*border-top: 1px solid #000;*/
+  padding: 0;
+  margin: 0 auto;
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+#first-quadrant {
+  padding: 0;
+  width: 500px;
+  height: 500px;
+  margin: 0;
+  display: inline-block;
+}
+
+#second-quadrant {
+  padding: 0;
+  width: 500px;
+  height: 500px;
+  margin: 0;
+  display: inline-block;
+}
+
+#third-quadrant {
+  padding: 0;
+  width: 500px;
+  height: 500px;
+  margin: 0;
+  display: inline-block;
+}
+
+#fourth-quadrant {
+  padding: 0;
+  width: 500px;
+  height: 500px;
+  margin: 0;
+  display: inline-block;
+}
+
+.y-axis-label {
+  font-family: arial;
+  font-size: 12px;
+  position: absolute;
+  z-index: 2;
+  font-weight: bold;
+  color: blue;
+}
+
+.ten-y {
+  position: absolute;
+  top: 0%;
+  left: 50.3%;
+}
+
+.nine-y {
+  position: absolute;
+  top: 9.3%;
+  left: 50.3%;
+}
+
+.eight-y {
+  position: absolute;
+  top: 19.2%;
+  left: 50.3%;
+}
+
+.seven-y {
+  position: absolute;
+  top: 29.2%;
+  left: 50.3%;
+}
+
+.six-y {
+  position: absolute;
+  top: 39.2%;
+  left: 50.3%;
+}
+
+.five-y {
+  position: absolute;
+  top: 49.2%;
+  left: 50.3%;
+}
+
+.four-y {
+  position: absolute;
+  top: 59.2%;
+  left: 50.3%;
+}
+
+.three-y {
+  position: absolute;
+  top: 69.2%;
+  left: 50.3%;
+}
+
+.two-y {
+  position: absolute;
+  top: 79.3%;
+  left: 50.3%;
+}
+
+.one-y {
+  position: absolute;
+  top: 89.3%;
+  left: 50.3%;
+}
+
+.neg-one-y {
+  position: absolute;
+  top: 6.8%;
+  left: 48.5%;
+}
+
+.neg-two-y {
+  position: absolute;
+  top: 16.8%;
+  left: 48.5%;
+}
+
+.neg-three-y {
+  position: absolute;
+  top: 26.5%;
+  left: 48.5%;
+}
+
+.neg-four-y {
+  position: absolute;
+  top: 36.5%;
+  left: 48.5%;
+}
+
+.neg-five-y {
+  position: absolute;
+  top: 46.5%;
+  left: 48.5%;
+}
+
+.neg-six-y {
+  position: absolute;
+  top: 56.5%;
+  left: 48.5%;
+}
+
+.neg-seven-y {
+  position: absolute;
+  top: 66.5%;
+  left: 48.5%;
+}
+
+.neg-eight-y {
+  position: absolute;
+  top: 76.5%;
+  left: 48.5%;
+}
+
+.neg-nine-y {
+  position: absolute;
+  top: 86.5%;
+  left: 48.5%;
+}
+
+.neg-ten-y {
+  position: absolute;
+  top: 96.5%;
+  left: 48%;
+}
+
+.x-axis-label {
+  font-family: arial;
+  font-size: 12px;
+  position: absolute;
+  z-index: 2;
+  font-weight: bold;
+  color: blue;
+}
+
+.neg-ten-x {
+  position: absolute;
+  top: 96.5%;
+  left: 0%;
+}
+
+.neg-nine-x {
+  position: absolute;
+  top: 96.5%;
+  left: 5.1%;
+}
+
+.neg-eight-x {
+  position: absolute;
+  top: 96.5%;
+  left: 10.1%;
+}
+
+.neg-seven-x {
+  position: absolute;
+  top: 96.5%;
+  left: 15.1%;
+}
+
+.neg-six-x {
+  position: absolute;
+  top: 96.5%;
+  left: 20.1%;
+}
+
+.neg-five-x {
+  position: absolute;
+  top: 96.5%;
+  left: 25.1%;
+}
+
+.neg-four-x {
+  position: absolute;
+  top: 96.5%;
+  left: 30.1%;
+}
+
+.neg-three-x {
+  position: absolute;
+  top: 96.5%;
+  left: 35.1%;
+}
+
+.neg-two-x {
+  position: absolute;
+  top: 96.5%;
+  left: 40.1%;
+}
+
+.neg-one-x {
+  position: absolute;
+  top: 96.5%;
+  left: 45.1%;
+}
+
+.one-x {
+  position: absolute;
+  top: 0%;
+  left: 54.1%;
+}
+
+.two-x {
+  position: absolute;
+  top: 0%;
+  left: 59.1%;
+}
+
+.three-x {
+  position: absolute;
+  top: 0%;
+  left: 64.1%;
+}
+
+.four-x {
+  position: absolute;
+  top: 0%;
+  left: 69.1%;
+}
+
+.five-x {
+  position: absolute;
+  top: 0%;
+  left: 74.1%;
+}
+
+.six-x {
+  position: absolute;
+  top: 0%;
+  left: 79.1%;
+}
+
+.seven-x {
+  position: absolute;
+  top: 0%;
+  left: 84.1%;
+}
+
+.eight-x {
+  position: absolute;
+  top: 0%;
+  left: 89.1%;
+}
+
+.nine-x {
+  position: absolute;
+  top: 0%;
+  left: 94.1%;
+}
+
+.ten-x {
+  position: absolute;
+  top: 0%;
+  left: 98.5%;
+}
+
+.square {
+  width: 10%;
+  height: 10%;
+  display: inline-block;
+  margin: -2.4px 0;
+  border: 1px solid navy;
+  position: relative;
+}

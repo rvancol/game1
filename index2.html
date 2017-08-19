@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.css">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+    <title>Cartesian Coordinate Plane Battleship</title>
+  </head
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1>Coordinate Plane Battleship</h1>
+      </div>
+      <div class="row row2">
+        <div id="player1progress" class="col-xs-6">
+          <h3>Player 1</h3>
+          <p>Torpedoes Remaining: #</p>
+          <p>Ships Destroyed: #</p>
+          <p>Ships Remaining: #</p>
+        </div>
+        <div id="player2progress" class="col-xs-6">
+          <h3>Player 2</h3>
+          <p>Torpedoes Remaining: #</p>
+          <p>Ships Destroyed: #</p>
+          <p>Ships Remaining: #</p>
+        </div>
+      </div>
+      <div class="row row2">
+        <div id="player-turn" class="col-xs-6">
+          <h3>Player # turn</h3>
+        </div>
+        <div id="attack" class="col-xs-6">
+          <h4>Enter in the coordinate pair:</h4>
+          <form action="/action_page.php">
+            (<input type="number" name="x"> <input type="number" name="y">)<br>
+            <input type="submit" value="Attack">
+          </form>
+        </div>
+      </div>
+      <div class="coordinate-plane">
+        <div class="row row2" id="first-second">
+          <div class="y-axis-label ten-y"><p>10</p></div>
+          <div class="y-axis-label nine-y"><p>9</p></div>
+          <div class="y-axis-label eight-y"><p>8</p></div>
+          <div class="y-axis-label seven-y"><p>7</p></div>
+          <div class="y-axis-label six-y"><p>6</p></div>
+          <div class="y-axis-label five-y"><p>5</p></div>
+          <div class="y-axis-label four-y"><p>4</p></div>
+          <div class="y-axis-label three-y"><p>3</p></div>
+          <div class="y-axis-label two-y"><p>2</p></div>
+          <div class="y-axis-label one-y"><p>1</p></div>
+          <div class="x-axis-label neg-ten-x"><p>-10</p></div>
+          <div class="x-axis-label neg-nine-x"><p>-9</p></div>
+          <div class="x-axis-label neg-eight-x"><p>-8</p></div>
+          <div class="x-axis-label neg-seven-x"><p>-7</p></div>
+          <div class="x-axis-label neg-six-x"><p>-6</p></div>
+          <div class="x-axis-label neg-five-x"><p>-5</p></div>
+          <div class="x-axis-label neg-four-x"><p>-4</p></div>
+          <div class="x-axis-label neg-three-x"><p>-3</p></div>
+          <div class="x-axis-label neg-two-x"><p>-2</p></div>
+          <div class="x-axis-label neg-one-x"><p>-1</p></div>
+          <div id="second-quadrant" class="col-xs-6"></div>
+          <div id="first-quadrant" class="col-xs-6"></div>
+        </div>
+        <div class="row row2" id="third-fourth">
+          <div class="y-axis-label neg-one-y"><p>-1</p></div>
+          <div class="y-axis-label neg-two-y"><p>-2</p></div>
+          <div class="y-axis-label neg-three-y"><p>-3</p></div>
+          <div class="y-axis-label neg-four-y"><p>-4</p></div>
+          <div class="y-axis-label neg-five-y"><p>-5</p></div>
+          <div class="y-axis-label neg-six-y"><p>-6</p></div>
+          <div class="y-axis-label neg-seven-y"><p>-7</p></div>
+          <div class="y-axis-label neg-eight-y"><p>-8</p></div>
+          <div class="y-axis-label neg-nine-y"><p>-9</p></div>
+          <div class="y-axis-label neg-ten-y"><p>-10</p></div>
+          <div class="x-axis-label one-x"><p>1</p></div>
+          <div class="x-axis-label two-x"><p>2</p></div>
+          <div class="x-axis-label three-x"><p>3</p></div>
+          <div class="x-axis-label four-x"><p>4</p></div>
+          <div class="x-axis-label five-x"><p>5</p></div>
+          <div class="x-axis-label six-x"><p>6</p></div>
+          <div class="x-axis-label seven-x"><p>7</p></div>
+          <div class="x-axis-label eight-x"><p>8</p></div>
+          <div class="x-axis-label nine-x"><p>9</p></div>
+          <div class="x-axis-label ten-x"><p>10</p></div>
+          <div id="third-quadrant" class="col-xs-6"></div>
+          <div id="fourth-quadrant" class="col-xs-6"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
